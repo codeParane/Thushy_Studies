@@ -33,10 +33,10 @@
                 </tr>
                 <tr>
                     <td>Blood Type</td>
-                    <td><input type="radio" name="bloodType" id="bloodType">A
-                        <input type="radio" name="bloodType" id="bloodType">O
-                        <input type="radio" name="bloodType" id="bloodType">AB
-                        <input type="radio" name="bloodType" id="bloodType">B</td>
+                    <td><input type="radio" name="bloodType" id="A" value="A">A
+                        <input type="radio" name="bloodType" id="O" value="O">O
+                        <input type="radio" name="bloodType" id="AB" value="AB">AB
+                        <input type="radio" name="bloodType" id="B" value="B">B</td>
                 </tr>
                 <tr>
                     <td>Select Currency
@@ -50,9 +50,12 @@
                     <td><button onclick="frmSubmit()">Submit</button></td>
                 </tr>
             </table>
-        </div>>
+        </div>
         <!-- </form> -->
-        <div id="display"></div>
+        <div id="display">
+            <span id="displayName"></span><br>
+            <span id="displayBloodComp"></span>
+        </div>
     </div>
 
 

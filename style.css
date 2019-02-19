@@ -18,22 +18,10 @@ nav > a{
     font-size: 1.5em;
 }
 
-
 footer{
     font-size: 1em;
     color:#000;
     font-style: italic;
-}
-form{
-    width: 50%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-form input[type=text]{
-    color:red;
-}
-span{
-    width: 50%;
 }
 
 #display, #form{
